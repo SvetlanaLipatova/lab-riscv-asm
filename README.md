@@ -23,17 +23,16 @@
 <p>
 
 ```
-$ riscv64-unknown-elf-run --architecture riscv:rv32 --model RV32I -v build/Lab1.elf
-riscv64-unknown-elf-run build/Lab1.elf
-99 67 55 68 11  4
- 1 43 41 10 17  0
-33 81 78 34 71 37
-45  9 63 53 15 49
-63 81 88 46 25 76
-68  7 59 86 24 76
-63 81 88 46 29 78
-Simulator Execution Speed
-  Total execution time:    < 1 second
+5 74 5 64 34 7
+6 65 4 41 44 5
+9 41 1 85 31 1
+7 96 9 46 54 8
+7 96 9 11 81 3
+4 27 1 73 10 9
+
+207 
+
+245 
 ```
 
 </p>
@@ -44,7 +43,7 @@ Simulator Execution Speed
 
 ```
 -------------------------------------------------------------------------------------------
-198 241 Exited with error code 0
+207 245 Exited with error code 0
 Stop program execution!
 -------------------------------------------------------------------------------------------
 ```
