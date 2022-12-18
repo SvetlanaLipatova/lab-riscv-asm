@@ -79,7 +79,6 @@ mv t3, a1
 
 1:
 mv t6, t3
-lui t0, 0x00000
 mv t0, x0
 
 2:
@@ -96,7 +95,6 @@ addi t6, t6, -1
 bnez t6, 2b
 
 mv t6, t3
-lui t1, 0x00000
 mv t1, x0
 mv t2, a2
 
